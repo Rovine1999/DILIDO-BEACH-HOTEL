@@ -1,0 +1,73 @@
+h1 {
+    color: #2cf31a;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    font-family: caudex;
+    font-style: normal;
+    font-size: 64px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    font-family: caudex;
+    font-style: normal;
+    
+
+}
+
+p {
+    width: 850px;
+    align-items: center;
+}
+
+h1, h2,img{
+  background-image: url('./images/Untitled\ image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+body {
+    background-image: url('./images/DILIDO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div p {
+    color: #954ACF;
+    background-color: #C4C4C4;
+    width: 200px;
+    height: 21px;
+    display: left;
+}
+
+h5 {
+    margin-left: auto;
+    display: inline;
+    padding: 3px 3px 5px;
+
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+   flex-direction: column;
+   align-items: column;
+}
+
+
+#logo img{
+    justify-content: center;
+    margin-left: 600px;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
