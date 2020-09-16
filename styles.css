@@ -132,7 +132,7 @@ h5 {
     /* margin-left: 40%;
     margin-top: 5%; */
     display: flex;
-    width: 60%;
-    height: 60%;
-    justify-content: space-between;
+    width: 40%;
+    height: 40%;
+    justify-content: space-between 20%;
 }
