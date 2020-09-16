@@ -1,5 +1,5 @@
 h1 {
-    color: #2cf31a;
+    color: #000000;
     text-align: center;
     font-weight: bold;
     align-items: center;
@@ -31,7 +31,7 @@ h1, h2,img{
 }
 
 body {
-    background-image: url('./images/DILIDO.jpg');
+    /* background-image: url('./images/DILIDO.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: bolder;
@@ -70,5 +70,69 @@ h5 {
 }
 .upper{
     display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+    padding-left: 50%;
+    /* margin-left: 0%; */
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: royalblue;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  
+  .dropdown:hover .dropdown-content {display: list-item;}
+
+  #nav {
+      display: flex;
+      /* background-color: red; */
+      background-size: 30px;
+  }
+
+  #link {
+      background-color: salmon;
+      padding: 5%;
+  }
+  
+  
+  .dropdown:hover .dropbtn {background-color: #ddd;
+    display: flex;
+}
+
+.footer-left{
+    background-color: #f3ca20;
+}
+
+#hotel {
+    display: flex;
+    padding: space-between 23px;
+}
+
+.image {
+    /* margin-left: 40%;
+    margin-top: 5%; */
+    display: flex;
+    width: 60%;
+    height: 60%;
     justify-content: space-between;
 }
